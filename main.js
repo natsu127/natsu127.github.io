@@ -27,6 +27,9 @@
         { q: 'どちらが有利？', c: ['どちらでもない', '先手', '後手'],img:  'https://natsu127.github.io/04-09a.png' },
         { q: 'どちらが有利？', c: ['先手', 'どちらでもない', '後手'],img:  'https://natsu127.github.io/04-09b.png' },
         { q: 'どちらが有利？', c: ['どちらでもない', '先手', '後手'],img:  'https://natsu127.github.io/04-10a.png' },
+        { q: 'どちらが有利？', c: ['先手', 'どちらでもない', '後手'],img:  'https://natsu127.github.io/2020-04-29a.png' },
+        { q: 'どちらが有利？', c: ['先手', 'どちらでもない', '後手'],img:  'https://natsu127.github.io/2020-05-01a.png' },
+        { q: 'どちらが有利？', c: ['先手', 'どちらでもない', '後手'],img:  'https://natsu127.github.io/2020-05-02b.png' },
     ]);
     // 現在何問目かを管理する変数
     let currentNum = 0;
