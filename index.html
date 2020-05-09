@@ -2,34 +2,98 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <script data-ad-client="ca-pub-1368542675944101" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>形成判断トレーニング</title>
-    <link rel="stylesheet" href="https://natsu127.github.io/style.css"/>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <title>workspartner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <section class="container">
-        <img id="main">
-        <p id="question"></p>
-        <ul id="choices">
-         
-        </ul>
-        <div id="btn" class="disabled" >Next</div>
-
-
-        <p>
-            この問題はこちらの記事から出題されています<br>
-        <p><a href="https://natunattu.com/post-468/" target="_blank" rel="noopener noreferrer">形成判断トレーニング　その１からその5</a></p>
-        </p>
-
-
-        <section id="result" class="hidden">
-            <p></p>
-            <a href="">Replay?</a>
-            
-        </section>
-    </section>
-       <script src="https://natsu127.github.io/main.js"></script>
-    
+    <div class="max-width">
+        <div class="about">
+            <h2 id="about">about</h2>
+            <div class="about-contents about-wrapper">
+                <div class="content1">
+                    <a href="content1.html">
+                        <img src="images\keisei.png">
+                        <div class="about-text">
+                            <P>形勢判断のクイズアプリです。先手、後手、どちらでもないの3択から正解を選ぶものになっています。</P>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="content2">
+                    <a href="content1.html">
+                        <img src="images\tuginoitte.png">
+                        <div class="about-text">
+                            <P>次の一手問題です。私の実戦の局面から出題されています。3択から正解を選ぶものになっています。</P>
+                        </div>
+                     </a>
+                </div>
+                <div class="content3">
+                    <a href="content1.html">
+                        <img src="images\tumesyougi.png">
+                        <div class="about-text">
+                            <P>詰将棋の問題です。私の実戦の局面から出題されています。3択から最初の一手を選ぶ問題になっています。</P>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contents">
+            <h2 id="contents">contents</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="content1.html">
+                        <img src="images\keisei.png" class="d-block w-100" alt="1つ目">
+                        <p>形勢判断トレーニング</p>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="content1.html">
+                        <img src="images\tuginoitte.png" class="d-block w-100" alt="2つ目">
+                        <p>次の一手問題</p>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="content1.html">
+                        <img src="images\tumesyougi.png" class="d-block w-100" alt="3つ目">
+                        <p>詰将棋</p>
+                    </a>
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+        <div class="fotter" id="contact">
+            <div class="fotter-container">
+                <div class="fotter-btn">
+                    <a href="#about">about</a>
+                    <a href=#contents>contents</a>
+                    <a href=#contact>contact</a>
+                </div>
+                <div class="fotter-icon">
+                    <p><a href="https://twitter.com/natu_shogi"><i class="fab fa-twitter"></a></i></p>
+                </div>
+            </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
